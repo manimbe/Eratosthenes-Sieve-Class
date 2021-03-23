@@ -5,7 +5,7 @@ class Sieve
 
 private:
 	
-	int* prime;
+	bool* prime;
 	int limit;
 	int i = 0;
 	int number = 2;
@@ -14,7 +14,7 @@ public:
 	
 //Constructor (generates "index array" with locations of the prime numbers)
 	Sieve(int max)
-		: limit(max), prime(new int[limit])
+		: limit(max), prime(new bool[limit])
 	{
 		limit--;
 		
