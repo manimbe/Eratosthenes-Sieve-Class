@@ -1,5 +1,4 @@
-#include <iostream>
-#include "Sieve.h"
+#include "Sieve.cpp"
 
 //This file is just for seeing how the class works
 

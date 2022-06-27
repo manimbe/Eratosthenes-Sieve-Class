@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Sieve.h"
 
 //Constructor (generates "index array" with locations of the prime numbers)
